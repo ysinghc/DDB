@@ -1,0 +1,2 @@
+Just learned about calloc, and now instead of using malloc(sizeof()*size), I will use calloc as it will initilizae the memory to zero.
+Tip: use calloc for when you need the memory to be zeroed for array of structs and malloc when you will immediately filll every byte
