@@ -20,7 +20,7 @@ int main(int argc, char *argv[])
 	//check if you have enough space for the next argument
         int size_of_topic = strlen(topic);
         int size_of_next_argument = strlen(argv[i]);
-        if(100-size_of_topic < size_of_next_argument)
+        if(10-size_of_topic < size_of_next_argument)
 	    //skip if no
             break;
 
